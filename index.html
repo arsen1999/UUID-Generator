@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UUID Generator</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="icon" type="image/x-icon" href="https://goo.su/nWhU3">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&amp;display=swap"
+          rel="stylesheet">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+
+<section class="generator-block">
+
+    <div class="text-generator">
+        <h1>UUID Generator</h1>
+    </div>
+
+    <div class="container-button">
+        <button class="btn-generate btn-log" onclick="myUUidGenerator.generatorUId()">Generate a UUID</button>
+    </div>
+
+    <div class="uuid-container">
+        <h3 class="text-uuid"></h3>
+    </div>
+
+    <div class="info-togenerator">
+        <h3>
+            Click the button to generate a UUID!
+        </h3>
+    </div>
+
+    <div class="container-btn add-new-btn">
+        <button class="btn-copy" onclick="myUUidGenerator.copyClipboard()">Copy to clipboard</button>
+    </div>
+
+</section>
+
+<script src="assets/scripts/script.js"></script>
+
+</body>
+</html>

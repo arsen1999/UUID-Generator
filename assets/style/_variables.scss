@@ -1,0 +1,17 @@
+$brandYellow: var(--brandYellow);
+$brandPurple: var(--brandPurple);
+$brandWhite: var(--brandWhite);
+
+$borderRadiusM: var(--borderRadiusM);
+
+$fontSize: var(--fontSize);
+
+$fontWeight: var(--fontWeight);
+:root {
+    --brandYellow: #eea941;
+    --brandPurple: #28192d;
+    --brandWhite: #fff;
+    --fontSize: 16px;
+    --fontWeight: 400;
+    --borderRadiusM: 8px;
+}

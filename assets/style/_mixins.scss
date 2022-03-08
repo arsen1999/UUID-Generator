@@ -1,0 +1,24 @@
+@import "./variables";
+
+@mixin btnSize($width, $height, $border: none) {
+  width: $width;
+  height: $height;
+  border: $border;
+  cursor: pointer;
+}
+
+@mixin swButton($bgColor: $brandYellow, $color: $brandPurple) {
+  color: $color;
+  background-color: $bgColor;
+}
+
+@mixin copyButton($bgColor: $brandWhite, $color: $brandPurple) {
+  color: $brandWhite;
+  background-color: $brandPurple;
+}
+
+@mixin swButtonFonts($font-size: $fontSize, $font-weight: $fontWeight, $border-radius: $borderRadiusM) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  border-radius: $border-radius;
+}

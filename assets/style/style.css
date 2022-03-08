@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+html body .generator-block .text-generator, html body .generator-block .uuid-container, html body .generator-block .container-button, html body .generator-block .container-btn, html body .generator-block .info-togenerator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+:root {
+  --brandYellow: #eea941;
+  --brandPurple: #28192d;
+  --brandWhite: #fff;
+  --fontSize: 16px;
+  --fontWeight: 400;
+  --borderRadiusM: 8px;
+}
+
+html * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html body {
+  margin: 0;
+  font-family: Inter;
+}
+
+html body h1,
+html body h2,
+html body h3,
+html body p {
+  margin: 0;
+}
+
+html body .generator-block {
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 90%;
+  margin: 150px auto;
+}
+
+@media (min-width: 1200px) {
+  html body .generator-block {
+    max-width: 1140px;
+  }
+}
+
+html body .generator-block .text-generator {
+  margin-bottom: 32px;
+}
+
+html body .generator-block .text-generator h1 {
+  color: #2a182e;
+  font-weight: 600;
+}
+
+html body .generator-block .uuid-container .text-uuid {
+  font-size: 18px;
+}
+
+@media (max-width: 576px) {
+  html body .generator-block .uuid-container .text-uuid {
+    font-size: 14px;
+  }
+}
+
+html body .generator-block .container-button {
+  margin-bottom: 32px;
+}
+
+html body .generator-block .container-button .btn-generate {
+  width: 40%;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  color: var(--brandPurple);
+  background-color: var(--brandYellow);
+  font-size: var(--fontSize);
+  font-weight: var(--fontWeight);
+  border-radius: var(--borderRadiusM);
+  font-family: Inter;
+}
+
+@media (max-width: 576px) {
+  html body .generator-block .container-button .btn-generate {
+    font-size: 15px;
+  }
+}
+
+html body .generator-block .container-button .btn-generate:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+html body .generator-block .container-btn {
+  margin-top: 32px;
+  display: none;
+}
+
+html body .generator-block .container-btn .btn-copy {
+  width: 30%;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  color: var(--brandWhite);
+  background-color: var(--brandPurple);
+  font-size: var(--fontSize);
+  font-weight: var(--fontWeight);
+  border-radius: var(--borderRadiusM);
+  font-family: Inter;
+}
+
+@media (max-width: 576px) {
+  html body .generator-block .container-btn .btn-copy {
+    font-size: 10px;
+  }
+}
+
+html body .generator-block .container-btn .btn-copy:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+html body .generator-block .container-btn .btn-copy:disabled {
+  background-color: #28192d;
+  opacity: 0.7;
+  cursor: no-drop;
+}
+
+html body .generator-block .info-togenerator {
+  padding: 0 15px;
+}
+
+@media (max-width: 576px) {
+  html body .generator-block .info-togenerator h3 {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
